@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Site</title>
+        <link href="CSS/style2.css" rel="stylesheet">
+        <Script src="JS/valid.js"></Script>
+    </head>
+    <body onload="return jfun3()">
+            <header class="head1">
+                <center>
+                    <h1>Live Virtual Class</h1>
+                </center>
+            </header>
+            <nav class="n1">
+                <a href="home.html">Home</a>
+                <a href="allcourses.html">All Courses</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="registration.html">Registration</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <nav class="left">
+                <br>
+                <br>
+                <iframe width="250" height="400" src="https://www.youtube.com/embed/-RiiXVUrAdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </nav>
+            <nav class="right">
+                <center>
+                <img src="Asset/lv1.jfif"><br><br><br>
+                <img src="Asset/lv2.jfif"><br><br><br>
+            <img src="Asset/lv3.jfif"></center>
+            </nav>
+            <center>
+            <form method="GET" name="form1">
+                <table style="width:400px; height:660px;">
+                   <center><tr><td><h2>Online Test</h2></td></tr></center>
+                   <tr><td>Q1. HTML is used for:</td></tr>
+                   <tr><td><input type="radio" name="r1" value="v1">Creating Static Pages</td></tr>
+                   
+                   <tr><td><input type="radio" name="r1" value="v2">Creating Dynamic  pages</td></tr>
+                   
+                   <tr><td><input type="radio" name="r1" value="v3">Both</td></tr>
+
+                   <tr><td>Q1. Java Script is used for:</td></tr>
+                   <tr><td><input type="radio" name="r2" value="q1">Creating Static Pages</td></tr>
+                   
+                   <tr><td><input type="radio" name="r2" value="q2">Creating Dynamic  pages</td></tr>
+                   
+                   <tr><td><input type="radio" name="r2" value="q3">Both</td></tr>
+                     <tr>
+                        <td> <input type="button" value="Your Result" name="b1" onclick="return jquiz()"></td>
+                     </tr>
+                     <br>
+                     <tr><td>Enter Type:</td>
+                    <td><input type="text" name="tt1" placeholder="Enter here"></td></tr>
+
+                     <tr>
+                        <td>URL:</td>
+                        <td><select name="s2">
+                            <option value="Google">Google</option>
+                            <option value="Yahoo">Yahoo</option>
+                            <option value="wikipedia">Wikipedia</option>
+                        </select></td>
+                    </tr>
+                    <tr><td><input type="button" name="bt" value="search" onclick="return musicfun()">
+
+
+                     <tr><td><input id="id1" type="text" required><button onclick="vali()">OK</button></td></tr>
+                     <tr><td><input type="button" name="try" value="try it" onclick="promptfun()"></td></tr>
+                     <tr><td><input type="button" name="direct" value="click to redirect" onclick="return replacefun()"></td></tr>
+                </table>
+            </form>
+        </center>
+            
+            <footer><center>
+                &copy;copyright Mansi Maheshwari</center>
+            </footer>
+    </body>
+    </html>

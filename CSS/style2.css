@@ -1,0 +1,99 @@
+.head1 {
+    background-color:black;
+    color:cornsilk;
+    border: blanchedalmond;
+    border-style:solid;
+    font-size:20px;
+  }
+ 
+  .n1 {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .n1 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 99px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .n1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .n1 a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+footer {
+      background-color:black;
+      color:cornsilk;
+      border: blanchedalmond;
+    border-style:solid;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.do
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.left
+{
+    display: block;
+    float: left;
+    background-color:blanchedalmond;
+    height:655px;
+    width:300px;
+}
+.right
+{
+    display: block;
+    float: right;
+    background-color:blanchedalmond;
+    height:655px;
+    width:300px;
+}
+table {
+  border: 2px solid black;
+  border-radius:25px;
+  box-shadow: 10px 10px 5px#8888;
+}
+body {
+  background:blanchedalmond;
+  animation: myfirst 3s infinite;
+}
+@keyframes myfirst
+{
+  from{ background: aqua;}
+  to { background: burlywood}
+}
+.pic1 {
+  filter: opacity(80%);
+}
+.pic2 {
+  filter: blur(3px);
+}
+.pic3 {
+  filter:sepia(80%);
+}
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+h1:hover {
+  font-family: cursive;
+  text-decoration-line: underline;
+  transform:rotate(180drg);
+
+}
